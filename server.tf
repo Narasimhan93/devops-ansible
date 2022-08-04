@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "narasimhan-keypair"
 
   tags = {
-    Name = "Narasimhan-DevOps-Ainsible"
+    Name = "Narasimhan-DevOps-Ainsible-Updated"
     env = "Dev"
     owner = "Narasimhan"
   }
